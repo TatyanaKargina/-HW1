@@ -16,7 +16,7 @@ params = {
     "key": os.getenv("API_KEY"),
     "searchQuery": city,
     "language": "ru",
-    "limit": 5
+    "limit": 10
 }
 
 headers = {"accept": "application/json"}
